@@ -1,0 +1,13 @@
+# Spring Boot configuration
+spring:
+  # Database
+  datasource:
+    driver-class-name: org.postgresql.Driver
+    url: jdbc:postgresql://localhost:5432/spring_data_jpa
+    username: postgres
+    password: 123
+  # JPA properties
+  jpa:
+    hibernate:
+      ddl-auto: update
+    show-sql: true
